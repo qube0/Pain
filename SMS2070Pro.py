@@ -1,10 +1,10 @@
 from pygame import *
 from random import uniform, randint
 '''импортируем функцию для засекания времени, чтобы интерпретатор
- не искал эту функцию в pygame модуле time, даем ей другое название сами 
- '''
- 
- 
+не искал эту функцию в pygame модуле time, даем ей другое название сами 
+'''
+
+
 import time as timer
 # подгружаем отдельно функции для работы со шрифтом
 font.init()
@@ -37,7 +37,7 @@ collide.set_volume(0.5)
 # нам нужны такие картинки:
 img_back = "galaxy.png"  # фон игры
 img_bullet = "bullet.png"  # пуля
-img_hero = "rocket.png"  # герой
+img_hero = "hero.png"  # герой
 img_enemy = "ufo.png"  # враг
 img_ast = "asteroid.png"  # астероид
 img_boss = "boss.png"  # босс
